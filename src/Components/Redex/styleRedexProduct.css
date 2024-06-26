@@ -1,0 +1,77 @@
+.redex-product {
+  padding-top: 60px;
+}
+.redex-product .content {
+  margin-top: 20px;
+}
+.redex-product .content table {
+  text-align: center;
+  width: 100%;
+}
+.redex-product .content table th {
+  padding-left: 50px;
+}
+.redex-product .content table tr {
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+.redex-product .content table tr td {
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.redex-product .content table tr td img {
+  width: 30px;
+}
+.redex-product .content table tr td i {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.redex-product .content table tr td i:hover {
+  color: red;
+  transition: 0.3s;
+}
+.redex-product .content table span.hr {
+  width: 90%;
+  height: 1px;
+  background-color: rgb(189, 189, 189);
+  position: absolute;
+  margin-top: 8px;
+}
+.redex-product .content .cash {
+  width: 50%;
+  margin-top: 100px;
+  padding-left: 100px;
+}
+.redex-product .content .cash h1 {
+  margin-bottom: 40px;
+}
+.redex-product .content .cash .calculate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.redex-product .content .cash .calculate h5 {
+  margin-left: 50px;
+}
+.redex-product .content .cash span.hr {
+  width: 45%;
+  height: 1px;
+  background-color: rgb(189, 189, 189);
+  position: absolute;
+  margin-top: -5px;
+}
+.redex-product .content .cash button {
+  padding: 12px;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+}
+.redex-product .content .cash button:hover {
+  color: black;
+  background-color: #e78a8a;
+  transition: 0.3s;
+}/*# sourceMappingURL=styleRedexProduct.css.map */

@@ -1,0 +1,90 @@
+.redex-product {
+    padding-top: 60px;
+
+    .content {
+        
+        margin-top: 20px;
+        table {
+            text-align: center;
+            width: 100%;
+            th {
+                padding-left: 50px;
+            }
+            tr {
+                padding-bottom: 50px;
+                margin-top: 50px;
+                td {
+                    padding-left: 50px;
+                    padding-top: 10px;
+
+                    img {
+                        width: 30px;
+                    }
+
+                    i {
+                        cursor: pointer;
+                        transition: 0.3s;
+
+                        &:hover {
+                            color: red;
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+            
+            span.hr {
+                width: 90%;
+                height: 1px;
+                background-color: rgb(189, 189, 189);
+                position: absolute;
+                margin-top: 8px;
+            }
+            
+        }
+
+        .cash {
+            //background-color: gray;
+            width: 50%;
+            margin-top: 100px;
+            padding-left: 100px;
+
+            h1 {
+                margin-bottom: 40px;
+            }
+            .calculate {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+                h5 {
+                    margin-left: 50px;
+                }
+            }
+            span.hr {
+                width: 45%;
+                height: 1px;
+                background-color: rgb(189, 189, 189);
+                position: absolute;
+                margin-top: -5px;
+            }
+
+            button {
+                padding: 12px;
+                background-color: #dc2626;
+                color: white;
+                border: none;
+                cursor: pointer;
+                font-size: 12px;
+                transition: 0.3s;
+
+                &:hover {
+                    color: black;
+                    background-color: #e78a8a;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}

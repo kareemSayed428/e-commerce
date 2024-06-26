@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #3CA596;
+  height: 60px;
+  box-shadow: 0 3px 3px rgba(168, 168, 168, 0.575);
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  z-index: 100;
+}
+.navbar nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar nav .logo {
+  z-index: 101;
+}
+.navbar nav .logo img {
+  width: 50px;
+}
+.navbar nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  z-index: 101;
+  position: relative;
+}
+.navbar nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+.navbar nav ul li a:hover {
+  color: #EBD96B;
+  transition: 0.3s;
+}
+.navbar nav ul i {
+  color: rgb(235, 234, 234);
+  font-size: 20px;
+  cursor: pointer;
+}
+.navbar nav ul i.fa-circle {
+  color: #EBD96B;
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+  margin-left: 15px;
+}
+.navbar nav .toggle {
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  width: 50px;
+  height: 30px;
+  z-index: 3;
+}
+.navbar nav .toggle .bar span {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+}
+.navbar nav .toggle .bar span:nth-child(2) {
+  top: 20px;
+  left: 27px;
+  width: 20px;
+}
+.navbar nav .toggle .bar .link-to-redex i {
+  color: #EBD96B;
+  margin-left: -25px;
+  margin-top: 10px;
+}
+.navbar nav .toggle .bar .link-to-redex i.fa-cart-shopping {
+  margin-left: -40px;
+  color: white;
+  font-size: 20px;
+}
+.navbar nav .toggle .circle p {
+  background-color: #ebda6b;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar nav .link-toggle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 20px;
+  z-index: 6;
+}
+.navbar nav .link-toggle li {
+  padding: 8px;
+}
+.navbar nav .link-toggle li a {
+  color: #3CA596;
+  transition: 0.3s;
+}
+.navbar nav .link-toggle li a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+/* Start Media */
+@media (min-width: 992px) {
+  .navbar {
+    height: 60px !important;
+  }
+  .navbar nav .toggle {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .navbar nav {
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+  .navbar nav ul {
+    display: none;
+  }
+}/*# sourceMappingURL=styleNavbar.css.map */

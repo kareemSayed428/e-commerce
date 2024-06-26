@@ -1,0 +1,26 @@
+.sponser {
+  position: relative;
+}
+.sponser .content {
+  position: absolute;
+  top: 550px;
+  background-color: #EBD96B;
+  width: 100%;
+  padding: 20px;
+  z-index: -1;
+  overflow: hidden;
+}
+.sponser .content img {
+  mix-blend-mode: multiply;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* Start Media */
+@media (max-width: 567px) {
+  .sponser .content img {
+    width: 150%;
+  }
+}
+/* End Media *//*# sourceMappingURL=styleSponser.css.map */

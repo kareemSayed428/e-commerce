@@ -1,0 +1,105 @@
+.MenClothes {
+  padding-top: 60px;
+}
+.MenClothes .container {
+  width: 100%;
+  display: flex;
+  /* product-filter */
+  /* product-body */
+}
+.MenClothes .container .product-filter {
+  background-color: rgb(245, 245, 245);
+  width: 25%;
+  height: 500px;
+}
+.MenClothes .container .product-filter .content {
+  padding: 10px;
+  margin-left: 10px;
+}
+.MenClothes .container .product-filter .content h3 {
+  margin-bottom: 20px;
+}
+.MenClothes .container .product-filter .content .check input {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+.MenClothes .container .product-filter .content .filter-by-price {
+  margin-top: 40px;
+}
+.MenClothes .container .product-filter .content .filter-by-price h4 {
+  margin-bottom: 10px;
+}
+.MenClothes .container .product-filter .content .sort-by {
+  margin-top: 40px;
+}
+.MenClothes .container .product-filter .content .sort-by h4 {
+  margin-bottom: 10px;
+}
+.MenClothes .container .product-filter .content .sort-by .radio-div {
+  margin-bottom: 10px;
+}
+.MenClothes .container .product-body {
+  width: 75%;
+}
+.MenClothes .container .product-body .head-img img {
+  width: 100%;
+}
+.MenClothes .container .product-body .all-product .single-product {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 50px;
+}
+.MenClothes .container .product-body .all-product .single-product img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.MenClothes .container .product-body .all-product .single-product .price {
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
+}
+.MenClothes .container .product-body .all-product .single-product .price p {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 14px;
+}
+.MenClothes .container .product-body .all-product .single-product .price h5 {
+  font-size: 14px;
+}
+
+/* Start Media */
+@media (max-width: 576px) {
+  .MenClothes .container {
+    display: inline-block;
+    /* product-filter */
+    /* product-body */
+  }
+  .MenClothes .container .product-filter {
+    height: 80px;
+    width: 0;
+  }
+  .MenClothes .container .product-filter .content h3 {
+    color: red;
+  }
+  .MenClothes .container .product-filter .content .check {
+    display: flex;
+    gap: 20px;
+  }
+  .MenClothes .container .product-body {
+    width: 100%;
+  }
+  .MenClothes .container .product-body .all-product .single-product {
+    justify-content: center;
+  }
+  .MenClothes .container .product-body .all-product .single-product div {
+    text-align: center;
+  }
+  .MenClothes .container .product-body .all-product .single-product .price {
+    justify-content: center;
+  }
+}
+/* End Media *//*# sourceMappingURL=styleMenClothes.css.map */

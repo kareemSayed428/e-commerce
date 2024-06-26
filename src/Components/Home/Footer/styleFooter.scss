@@ -1,0 +1,42 @@
+footer {
+    background-color: black;
+    color: white;
+    .footer {
+        //text-align: center;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        z-index: 50;
+
+        .right {
+            a {
+                cursor: pointer;
+                color: white;
+                margin-left: 15px;
+                transition: 0.3s;
+
+                &:hover {
+                    color: orange;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* Start Media */
+@media(max-width: 767px) {
+    footer {
+        margin-top: 50px;
+    }
+}
+
+
+@media(max-width: 567px) {
+    footer {
+        margin-top: 0px;
+    }
+}
+/* End Media */

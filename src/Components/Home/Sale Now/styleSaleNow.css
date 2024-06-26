@@ -1,0 +1,140 @@
+.sale-now {
+  background: linear-gradient(#F9DF56, #E0C340);
+  display: flex;
+  height: 100vh;
+}
+.sale-now .img-left {
+  position: relative;
+}
+.sale-now .img-left img {
+  width: 100%;
+}
+.sale-now .img-left img:not(:nth-child(1)) {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+.sale-now .img-left img:nth-child(2) {
+  left: 50px;
+  top: 50px;
+}
+.sale-now .img-left img:nth-child(3) {
+  left: 80%;
+  top: 80px;
+}
+.sale-now .img-left img:nth-child(4) {
+  left: 10%;
+  top: 300px;
+}
+.sale-now .img-left img:nth-child(5) {
+  left: 45%;
+  top: 500px;
+}
+.sale-now .sale-content {
+  width: 100%;
+  padding-left: 100px;
+  margin-left: -2px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.sale-now .sale-content h1 {
+  font-size: 60px;
+  padding: 10px;
+}
+.sale-now .sale-content h1:nth-child(1) {
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  transform: rotate(-4deg);
+}
+.sale-now .sale-content p {
+  color: #231300;
+  font-size: 20px;
+  width: 400px;
+}
+.sale-now .sale-content p:last-of-type {
+  font-size: 13px;
+}
+.sale-now .sale-content h5 {
+  margin: 20px 0;
+}
+.sale-now .sale-content button {
+  padding: 8px;
+  width: 300px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+.sale-now .sale-content button:hover {
+  background-color: #EBD96B;
+  color: black;
+  transition: 0.3s;
+}
+.sale-now .sale-content button:hover a {
+  color: black;
+}
+.sale-now .sale-content button a {
+  color: white;
+  transition: 0.3s;
+}
+
+/* Start Media */
+@media (max-width: 767px) {
+  .sale-now {
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+  }
+  .sale-now .img-left {
+    left: 25%;
+  }
+  .sale-now .img-left img {
+    width: 50%;
+  }
+  .sale-now .sale-content {
+    position: absolute;
+    left: 15%;
+  }
+  .sale-now .sale-content h1 {
+    font-size: 35px;
+  }
+  .sale-now .sale-content p {
+    font-size: 16px;
+  }
+  .sale-now .sale-content button {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    width: 200px;
+  }
+}
+@media (max-width: 576px) {
+  .sale-now .img-left {
+    left: 0;
+  }
+  .sale-now .img-left img {
+    width: 100%;
+  }
+  .sale-now .img-left img:nth-child(3) {
+    left: 80%;
+  }
+  .sale-now .sale-content {
+    left: 0;
+    margin-top: 50px;
+  }
+  .sale-now .sale-content p {
+    width: 200px;
+  }
+  .sale-now .sale-content button {
+    top: 280px;
+    left: 25%;
+  }
+}
+/* End Media *//*# sourceMappingURL=styleSaleNow.css.map */

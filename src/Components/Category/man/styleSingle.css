@@ -1,0 +1,90 @@
+.single {
+  padding-top: 60px;
+  margin-left: 50px;
+  padding-top: 100px;
+}
+.single .content {
+  display: flex;
+  gap: 60px;
+}
+.single .content .left img {
+  width: 300px;
+}
+.single .content .right {
+  padding-top: 50px;
+}
+.single .content .right h1 {
+  margin-bottom: 20px;
+}
+.single .content .right h2 {
+  color: #0e8dd1;
+  margin-bottom: 20px;
+}
+.single .content .right p {
+  margin-bottom: 20px;
+  color: #646464;
+  font-size: 14px;
+  max-width: 80%;
+}
+.single .content .right input {
+  padding: 8px;
+  width: 80px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  background-color: #bbbaba;
+  border: none;
+}
+.single .content .right button {
+  padding: 8px;
+  width: 300px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+.single .content .right button:hover {
+  background-color: #EBD96B;
+  color: black;
+  transition: 0.3s;
+}
+.single .content .right p.item {
+  color: green;
+  margin-top: 10px;
+}
+.single .content .right p.item i {
+  margin-left: 10px;
+}
+
+/* Start Media */
+@media (max-width: 576px) {
+  .single {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .single .content {
+    display: inline-block;
+    gap: 0px;
+  }
+  .single .content .right {
+    max-width: 100vw;
+  }
+  .single .content .right h1 {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .single .content .right p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .single .content .right button {
+    margin-bottom: 50px;
+  }
+}
+/* End Media *//*# sourceMappingURL=styleSingle.css.map */

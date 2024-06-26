@@ -1,0 +1,33 @@
+footer {
+  background-color: black;
+  color: white;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  z-index: 50;
+}
+footer .footer .right a {
+  cursor: pointer;
+  color: white;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+footer .footer .right a:hover {
+  color: orange;
+  transition: 0.3s;
+}
+
+/* Start Media */
+@media (max-width: 767px) {
+  footer {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 567px) {
+  footer {
+    margin-top: 0px;
+  }
+}
+/* End Media *//*# sourceMappingURL=styleFooter.css.map */

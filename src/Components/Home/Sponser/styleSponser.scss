@@ -1,0 +1,40 @@
+.sponser {
+    position: relative;
+    
+    .content {
+        position: absolute;
+        top: 550px;
+        background-color: #EBD96B;
+        width: 100%;
+        padding: 20px;
+        z-index: -1;
+        overflow: hidden;
+
+        img {
+            mix-blend-mode: multiply;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+
+
+/* Start Media */
+@media(max-width: 567px) {
+    .sponser {
+        //bottom: 10px;
+        .content {
+            //top: 600px;
+            //top: calc(100vh - 550px);
+            //padding-top: 250px;
+            //bottom: 100px;
+
+            img {
+                width: 150%;
+            }
+        }
+    }
+}
+
+/* End Media */
