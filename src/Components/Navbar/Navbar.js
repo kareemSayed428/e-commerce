@@ -60,7 +60,7 @@ function Navbar() {
 
 
                         {/* Count From Redex in small screen */}
-                        <Link to='RedexForProduct'>
+                        {/* <Link to='RedexForProduct'>
                             <div className='link-to-redex'>
                                 
                                 
@@ -68,7 +68,7 @@ function Navbar() {
                                     <i className="fa-solid fa-cart-shopping"></i>
                                 
                             </div>
-                        </Link>
+                        </Link> */}
 
                         {/* <div className='link-to-redex'>
                             
@@ -79,8 +79,27 @@ function Navbar() {
                         </div> */}
 
                     </div>
+
+
+                    {/* Count From Redex in small screen */}
+                    <div className='link-to-redex'>
+                            
+                        <Link to='RedexForProduct'>
+                            <i className="fa-solid fa-circle">{product.length}</i>
+                            <i className="fa-solid fa-cart-shopping"></i>
+                        </Link>
+                    </div>
                     
                 </div>
+
+                {/* Count From Redex in small screen */}
+                {/* <div className='link-to-redex'>
+                            
+                            <Link to='RedexForProduct'>
+                                <i className="fa-solid fa-circle">{product.length}</i>
+                                <i className="fa-solid fa-cart-shopping"></i>
+                            </Link>
+                        </div> */}
 
                 <div className='link-toggle'>
                     <motion.li

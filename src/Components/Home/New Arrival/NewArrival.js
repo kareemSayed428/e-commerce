@@ -35,7 +35,7 @@ function NewArrival() {
 
     // To use Redux => To Add Ptoduct
     const product = useSelector(state => state.cart.products);
-    console.log(product);
+    //console.log(product);
 
     const dispatch = useDispatch();
 

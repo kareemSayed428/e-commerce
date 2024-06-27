@@ -72,6 +72,7 @@
             .bar {
                 
                 span {
+                    margin-left: 1em;
                     top: 50%;
                     transform: translateY(-50%);
                     left: 50%;
@@ -90,20 +91,37 @@
                         width: 20px;
                     }
                 }
-                .link-to-redex {
+                // .link-to-redex {
                     
-                    i {
-                        color: #EBD96B;
-                        margin-left: -25px;
-                        margin-top: 10px;
-                    }
-                    i.fa-cart-shopping {
-                        margin-left: -40px;
-                        color: white;
-                        font-size: 20px;
-                    }
+                //     i {
+                //         color: #EBD96B;
+                //         margin-left: -25px;
+                //         margin-top: 10px;
+                //     }
+                //     i.fa-cart-shopping {
+                //         margin-left: -40px;
+                //         color: white;
+                //         font-size: 20px;
+                //     }
                     
+                // }
+            }
+
+            .link-to-redex {
+                // margin-right: 1em; 
+                // padding-right: 1em;   
+
+                i {
+                    color: #EBD96B;
+                    margin-left: -25px;
+                    margin-top: 10px;
                 }
+                i.fa-cart-shopping {
+                    margin-left: -40px;
+                    color: white;
+                    font-size: 20px;
+                }
+                
             }
             .circle {
                

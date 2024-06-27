@@ -6,25 +6,25 @@ import { useState } from 'react';
 
 function RedexForProduct() {
     const product = useSelector(state => state.cart.products);
-    console.log(product);
+    //console.log(product);
 
     const totalCash = product.map((e)=>{
         //console.log([(e.quantity)*(e.price)]);
         return (e.quantity)*(e.price);
     });
-    console.log(totalCash);
+    //console.log(totalCash);
 
     const sum = totalCash.reduce(
         (previousValue, currentValue, index) => previousValue + currentValue, 
         0);
-        console.log(sum); 
+        //console.log(sum); 
 
     
 
     const dispatch = useDispatch();
 
     const [totalPrice, setTotalPrice] = useState(0);
-    console.log(totalPrice);
+    //console.log(totalPrice);
 
     return(
         <>

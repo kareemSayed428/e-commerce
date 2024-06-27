@@ -12,7 +12,7 @@ export const urlContext = createContext();
 
 function MenClothes() {
     const [product, setProduct] = useState([]);
-    console.log(product);
+    //console.log(product);
 
     const [urlUpdate, setUrlUpdate] = useState('products');
     const [checkedHat, setCheckedHat] = useState(false);
@@ -29,12 +29,12 @@ function MenClothes() {
      //console.log(array[0].attributes.price);
 
      const newArray = array.map((e)=>{
-        console.log(e.attributes.price);
+        //console.log(e.attributes.price);
         return newNum.push(e.attributes.price);
         
      });
-     console.log(newNum);
-     console.log(newNum.sort(function(a, b){return a - b}));
+     //console.log(newNum);
+     //console.log(newNum.sort(function(a, b){return a - b}));
     
 
     //const myurl = 'http://localhost:1337/api/products?populate=*';
@@ -68,7 +68,7 @@ function MenClothes() {
                 {/* product-filter */}
                 <div className='product-filter'>
                     <div className='content'>
-                        <h3>Product Categories</h3>
+                        <h3>Product Categories (page is working)</h3>
                         <div className='check'>
 
                             <div className='checkbox-div'>
