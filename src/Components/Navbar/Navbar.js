@@ -61,7 +61,10 @@ function Navbar() {
                         {/* Count From Redex in small screen */}
                         <div className='link-to-redex'>
                             
-                        <Link to='RedexForProduct'><i className="fa-solid fa-circle">{product.length}</i><i className="fa-solid fa-cart-shopping"></i></Link>
+                        <Link to='RedexForProduct'>
+                            <i className="fa-solid fa-circle">{product.length}</i>
+                            <i className="fa-solid fa-cart-shopping"></i>
+                        </Link>
                         </div>
 
                     </div>

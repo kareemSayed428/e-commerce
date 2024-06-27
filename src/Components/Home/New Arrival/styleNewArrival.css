@@ -179,5 +179,13 @@
   .show-for-small-screen-in-media {
     display: block;
   }
+  .show-for-small-screen-in-media .container .add-to-card-product {
+    position: relative;
+  }
+  .show-for-small-screen-in-media .container .add-to-card-product button {
+    margin-top: 3em;
+    z-index: 5000;
+    position: absolute;
+  }
 }
 /* End Media *//*# sourceMappingURL=styleNewArrival.css.map */

@@ -73,9 +73,11 @@
                 width: 400px;
                 padding: 8px;
                 border: 1px solid transparent;
+                border-radius: 0.5em;
                 outline: none;
                 cursor: pointer;
                 margin-top: 10px;
+                font-weight: bold;
                 transition: 0.3s;
 
                 &:hover {
@@ -131,7 +133,7 @@
 
 @media(max-width: 576px) {
     .contact {
-        height: 100vh;
+        height: 120vh;
         .container {
             .work-to-gether {
                 h1 {

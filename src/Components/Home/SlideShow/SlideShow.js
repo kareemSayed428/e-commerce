@@ -41,7 +41,7 @@ function SlideShow() {
             const interval = setInterval(() => {
                 
                 setCount((count) => count + 1);
-                console.log(count);
+                //console.log(count);
     
             }, 2400);
 

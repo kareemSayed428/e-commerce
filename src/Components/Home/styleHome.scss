@@ -1,7 +1,7 @@
-html {
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-}
+// html {
+//     scroll-snap-type: y mandatory;
+//     scroll-behavior: smooth;
+// }
 
 body {
     background-color: rgba(240, 240, 240, 0.767);
@@ -49,15 +49,25 @@ body {
             &:nth-child(1) {
                 height: 80vh;
             }
+
             &:nth-child(2) {
                 height: auto;
+                margin-top: 9.5em;
+                
             }
+
+            &:nth-child(3) {
+                height: 130vh;
+            }
+
             &:nth-child(4) {
                 height: auto;
             }
+            
             &:last-child {
                 //height: auto;
-                padding-top: 0px;
+                // padding-top: 0px;
+                 margin-top: 5em;
             }
             
         }

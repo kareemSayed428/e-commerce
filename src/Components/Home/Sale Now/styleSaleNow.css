@@ -116,6 +116,9 @@
   }
 }
 @media (max-width: 576px) {
+  .sale-now {
+    height: 120vh;
+  }
   .sale-now .img-left {
     left: 0;
   }
