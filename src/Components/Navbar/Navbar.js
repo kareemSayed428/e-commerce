@@ -11,7 +11,7 @@ function Navbar() {
     //console.log(toggle);
 
     const product = useSelector(state => state.cart.products);
-    console.log(product);
+    //console.log(product);
 
     return(
         <>
@@ -32,9 +32,7 @@ function Navbar() {
                     
 
                 </ul>
-                <div onClick={()=>{
-                    setToggle(!toggle);
-                }} className='toggle'>
+                <div onClick={()=>{setToggle(!toggle)}} className='toggle'>
                     <div className='circle'>
                         <motion.p
                             initial={{width: 0, height: 0}}
@@ -58,14 +56,27 @@ function Navbar() {
                         
                         ></motion.span>
 
+
+
+
                         {/* Count From Redex in small screen */}
-                        <div className='link-to-redex'>
+                        <Link to='RedexForProduct'>
+                            <div className='link-to-redex'>
+                                
+                                
+                                    <i className="fa-solid fa-circle">{product.length}</i>
+                                    <i className="fa-solid fa-cart-shopping"></i>
+                                
+                            </div>
+                        </Link>
+
+                        {/* <div className='link-to-redex'>
                             
                         <Link to='RedexForProduct'>
                             <i className="fa-solid fa-circle">{product.length}</i>
                             <i className="fa-solid fa-cart-shopping"></i>
                         </Link>
-                        </div>
+                        </div> */}
 
                     </div>
                     

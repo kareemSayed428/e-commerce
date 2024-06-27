@@ -55,9 +55,17 @@
   }
 }
 @media (max-width: 567px) {
+  .category-in-home {
+    overflow-y: hidden;
+    height: 100vh;
+  }
   .category-in-home .head h1 {
     font-size: 40px;
     padding: 15px;
+  }
+  .category-in-home .image {
+    height: 500px;
+    overflow-y: hidden;
   }
 }
 /* End Media *//*# sourceMappingURL=styleCategoryInHome.css.map */

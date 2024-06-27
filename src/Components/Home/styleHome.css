@@ -28,7 +28,7 @@ body {
     height: 130vh;
   }
   .home section:nth-child(4) {
-    height: auto;
+    height: 95vh;
   }
   .home section:last-child {
     margin-top: 5em;
